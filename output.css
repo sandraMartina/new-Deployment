@@ -10,6 +10,7 @@
       "Courier New", monospace;
     --color-red-500: oklch(63.7% 0.237 25.331);
     --color-amber-100: oklch(96.2% 0.059 95.617);
+    --color-green-100: oklch(96.2% 0.044 156.743);
     --color-gray-800: oklch(27.8% 0.033 256.848);
     --spacing: 0.25rem;
     --default-font-family: var(--font-sans);
@@ -187,8 +188,8 @@
   .bg-amber-100 {
     background-color: var(--color-amber-100);
   }
-  .p-8 {
-    padding: calc(var(--spacing) * 8);
+  .bg-green-100 {
+    background-color: var(--color-green-100);
   }
   .px-8 {
     padding-inline: calc(var(--spacing) * 8);
